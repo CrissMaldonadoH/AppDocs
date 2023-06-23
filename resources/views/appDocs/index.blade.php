@@ -10,7 +10,7 @@
     @endif
 
         @foreach ($documentos as $documento)
-            <div class="d-flex p-2 w-100 align-items-center border border-secondary rounded my-3">
+            <div class="registro d-flex p-2 w-100 align-items-center border border-secondary rounded my-3">
                 <div class="contenido-documento  w-75">
                     <h2 class="h2">{{ $documento['DOC_NOMBRE'] }}</h2>
                     <p> {{ $documento['DOC_CONTENIDO'] }} </p>

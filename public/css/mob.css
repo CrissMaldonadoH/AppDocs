@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+    .container .registro{
+        display: block!important;
+    }
+    .container .registro div{
+        width: 100%!important;
+    }
+    .container .registro .acciones{
+        display: flex!important;
+    }
+    .container .registro .acciones form, .container .registro .acciones form{
+        display: flex;
+        justify-content: center;
+    }
+}
